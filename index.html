@@ -14,13 +14,12 @@
       box-sizing: border-box;
       margin: 0px auto;
       padding: 0px;
-      background-color: aqua;
+      background-color: #f5f5f5;
     }
 
     section,
     header {
       max-width: 715px;
-      background-color: #ddd;
       margin: 0px auto;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -351,43 +350,127 @@
 
     /* start gifts part */
 
-    .ipad .gift{
+    .ipad .gift {
+      margin-top: 3px;
       display: flex;
-      margin-bottom: 60px;
+      padding-bottom: 5px;
     }
 
-    .ipad .gift .left{
+    .ipad .gift .left {
       min-width: 50%;
+      background-color: #fff;
+      padding: 10px 15px;
+    }
+
+    .ipad .gift .left p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      color: rgb(191, 72, 0);
+      font-size: 17px;
+      padding: 5px 0px 0px;
+    }
+
+    .ipad .gift .left span {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: rgb(29, 29, 31);
+      font-size: 16px;
+      padding: 10px 60px 0px 0px;
+    }
+
+
+    /* strt section lab */
+
+    /* start section watch------------------------------------------------------- */
+
+    /* start small-col */
+
+    .lab{
+      padding-top: 60px;
+    }
+
+    .lab .small-col .part:not(:nth-last-of-type(1)) {
+      border-bottom: 3px solid #ddd
+    }
+
+    .lab .small-col a img {
+      padding: 0px 0px 20px;
+    }
+
+    .lab .small-col .text-center a:nth-child(2) {
+      padding: 0px 0px 8px;
+      font-weight: 600;
+      color: rgb(29, 29, 31);
+    }
+
+    .lab .small-col .text-center a:last-child {
+      padding: 0px 0px 20px;
+      color: rgb(29, 29, 31);
+    }
+
+
+    /* strt big-col-l */
+    .lab .big-col-l {
       background-color: #fff;
     }
 
-    .ipad .gift .left .containt{
-      padding-left: 15px;
+    .lab .big-col-l h2 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-right: 3px;
     }
 
-    .ipad .gift .left p{
-      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600;
-    color: rgb(191,72,0);
-    font-size: 17px;
-    padding: 20px 0px 0px;
+    .lab .big-col-l .content {
+      padding: 0px 20px 14px 45px;
     }
 
-    .ipad .gift .left h3{
-      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(29,29,31);
-    font-size: 20px;
-    padding: 8px 0px 0px;
+    .lab .big-col-l .content p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(29, 29, 31);
+      line-height: 25px;
+      font-weight: normal;
+      font-size: 16px;
     }
 
-    .ipad .gift .left span{
+    /* start more */
+
+    .lab .more {
+      display: flex;
+      background-color: #fff;
+
+
+    }
+
+    .lab .more .left {
+      min-width: 50%;
+    }
+
+    .lab .more .right{
+      padding: 10px;
+    }
+
+    .lab .more .right img{
+      height: auto;
+    }
+
+    
+    .lab .more .right a img{
+      height: 9px;
+      margin-right: 5px;
+
+    }
+
+    .lab .more .right a{
       font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: normal;
-    color: rgb(29,29,31);
-    font-size: 17px;
-    padding: 15px 0px 0px 0px;
-    }
+    color: rgb(51,51,51);
+    font-size: 11px;
+    padding: 14px 0px 0px 40px;
+}
 
+    
+    
+
+   
 
     /* @media (max-width: 690px) {
       .ipad .gift{
@@ -643,21 +726,91 @@
     <!-- start gift pasrt -->
     <div class="gift">
       <div class="left">
-       <div class="containt">
-          <p>Only at Apple</p>
-        <h3>  Make your gift personal<br> with free engraving.</h3>
-        <span>Add a message to their AirPods,<br> iPad, iPod touch and Apple Pencil<br> (2nd generation), so your gift<br> means even more.
+        <p>Only at Apple</p>
+        <h2>Apple Watch Studio</h2>
+        <span>Add a message to their AirPods,iPad, iPod touch and Apple Pencil (2nd generation), so your gift means even more.
         </span>
-       </div>
       </div>
-      <div class="right">
-          <a href="">
-              <img class="img-fluid" src="https://ci3.googleusercontent.com/proxy/Zb97t2GFNXI05JwK23lNYohTSc8VvTVLss0253NfxqY5GfGW6PFJLT_pD-FfhxNWy1fzPHqdUhZdiSKaqks79KPTUp4WtlycRRW3uHbuXpXPZ0YyV3uJq4GsOad0tow7yGtMYFhFNJzqIA3qeE9i1y4=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/banner_hero_03_2x.jpg" alt="" srcset="">
-            </a>
+      <div class="right text-center">
+        <img class="img-fluid"
+          src="https://ci3.googleusercontent.com/proxy/Zb97t2GFNXI05JwK23lNYohTSc8VvTVLss0253NfxqY5GfGW6PFJLT_pD-FfhxNWy1fzPHqdUhZdiSKaqks79KPTUp4WtlycRRW3uHbuXpXPZ0YyV3uJq4GsOad0tow7yGtMYFhFNJzqIA3qeE9i1y4=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/banner_hero_03_2x.jpg"
+          alt="" srcset="">
       </div>
     </div>
   </section>
   <!-- end section  ipad  -->
+
+
+    <!--start section lab ------------------------------------------------ -->
+
+    <section class="lab">
+      <div class="container">
+  
+        <div class="small-col">
+          <div class="text-center part">
+            <a href="">
+              <img class="img-fluid"
+                src="https://ci3.googleusercontent.com/proxy/pnIToTHDgKPIT2BzVXYLB28LMSk3N4GheOSVK6Cl9COG3GmsSZWJvqLX6GIc91ImxN_X2CxefZuys8SG3MzKndDskUKuOCjJazseAdkhJSyhCqpeSDGv3oZETAm41lBOVKohQp4NSFG15tkSUWGv=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/grid_tile_13_2x.jpg"
+                alt="" srcset="">
+            </a>
+            <a href="">MacBook Air</a>
+            <a href="">From RM 4,899</a>
+          </div>
+  
+          <div class="text-center part">
+            <a href="">
+              <img class="img-fluid"
+                src="https://ci3.googleusercontent.com/proxy/pnIToTHDgKPIT2BzVXYLB28LMSk3N4GheOSVK6Cl9COG3GmsSZWJvqLX6GIc91ImxN_X2CxefZuys8SG3MzKndDskUKuOCjJazseAdkhJSyhCqpeSDGv3oZETAm41lBOVKohQp4NSFG15tkSUWGv=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/grid_tile_13_2x.jpg"
+                alt="" srcset="">
+            </a>
+            <a href="">MacBook Air</a>
+            <a href="">From RM 3,399</a>
+          </div>
+  
+          <div class="text-center part">
+            <a href="">
+              <img class="img-fluid"
+                src="https://ci3.googleusercontent.com/proxy/pnIToTHDgKPIT2BzVXYLB28LMSk3N4GheOSVK6Cl9COG3GmsSZWJvqLX6GIc91ImxN_X2CxefZuys8SG3MzKndDskUKuOCjJazseAdkhJSyhCqpeSDGv3oZETAm41lBOVKohQp4NSFG15tkSUWGv=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/grid_tile_13_2x.jpg"
+                alt="" srcset="">
+            </a>
+            <a href=""> MacBook Air</a>
+            <a href="">From RM 3,399</p>
+          </div>
+        </div> <!-- samll-col close -->
+  
+        <!--start big-col -->
+        <div class="big-col-l">
+          <a href="">
+            <img class="img-fluid"
+              src="https://ci5.googleusercontent.com/proxy/_znTdBZWu7qhCXnrXC9rirLP8iakpwo3uDXJgRDF1GpyHURA58Z3rfxEKZ9DlxAqEynETJ3zCShAL4HQpcACTi3lNkr3tt8y31x_q12WOXW-YSNPp8uIZp4ZeYlJqwUiVbRinumTNrXJy2UCZcnW=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/grid_hero_04_2x.jpg"
+              alt="">
+          </a>
+          <h2 class="pull-right">MacBook Air</h2>
+          <div class="content">
+            <p>There’s no better gift for the person who likes to get things done, and then some. With a brilliant Retina display, Touch ID and all-day battery life.2
+
+            </p>
+            <a class="big-a" href="">>Buy</a>
+          </div>
+        </div> <!-- big-col close -->
+  
+      </div> <!-- close section container -->
+      <a class="text-center mian-a" href="">>Shop iPhone accessories</a>
+
+  
+    <!-- start more part -->
+      <div class="more">
+        <div class="left">
+      
+        </div>
+        <div class="right text-center">
+          <img class="img-fluid"
+              src="https://ci5.googleusercontent.com/proxy/xsfUa_oI4z0dGE4ursVM-Ahbek4-qWjnSOOMydIhHn84_OBWEQfuLquxEzEhn2iT1-qHdpURepGEEANfof-hOcCYJdVrjNKy2vqiVKUTUb74W1V37yAkqlaL3K_bpnd9eagkaJvyuswS1M3TsbeSYo4=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/banner_hero_04_2x.jpg"
+            alt="" srcset="">
+            <a href=""><img src="https://ci3.googleusercontent.com/proxy/Gp9duNJ9z6_9EANp4NJFgDA4ui82RfIpbkxJCfLpCMrYLbBgWhOOt0fyQZqQ9eC1UgEZrq96akmA2YBrSrmQzE8amypD6o17U83XWlQN_TgDwz7ypFj4unBIH8vc7nqd6cvg_Nwy63Yf6w=s0-d-e1-ft#https://images.apple.com/my/dm/19/2D2A65DF-800C-44F0-AD29-ED21807A40B5/i/icon_01_2x.png" alt="" srcset=""> Watch See on the Apple TV app </a>
+        </div>
+      </div>
+    </section>
 
 
 
